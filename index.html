@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="line.css">
+<title></title>
+<style>
+
+
+/*هذا لو شلته الكلام الي ف البوكسات ما راح يكون مخفي */
+/*و لمن تحط الماوس الكلام يتحرك لانه الصوره تسوي زووم*/
+.cont1 .boox .det{
+position:absolute;
+top:10px;
+left:10px;
+bottom:10px;
+right:10px;
+background:rgba(0,0,0,.8);/*عشان تسوي شادو*/
+transform:scaleY(0);
+transition:transform .5s;
+}
+
+/*هذا لو شلته راح يختفي الكلام الي ف البوكسات*/
+.cont1 .boox:hover .det{
+transform:scaleY(1);
+}
+
+/*هذا لو شلته راح يصير الكلام فوق ع اليمين و غير مرتب*/
+.cont1 .boox .det .thecontent{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+text-align:center;
+padding:15px;
+color:white;
+}
+
+/*هذا بيخيليالي  ف المربعات اللون مال العنوان  لونه اصفر*/
+.cont1 .boox .det .thecontent h2{
+margin:0;
+padding:0;
+font-size:20px;
+color:yellow;
+}
+
+/*هذا يرتب الكونتنت مال البراجراف*/
+.cont1 .boox .det .thecontent p{
+margin:10px 0 0;
+padding:0;
+}
+
+/*هذا عشان الصوره الي ف اخر الصفحه تخليها كأنها ضبابيه*/
+.mgg{
+  filter: blur(100px);
+  -webkit-filter: blur(100px);
+}
+
+/* هذا للجدول الي ف اخر الصفحه*/
+.tab{
+border:solid;
+border-width:5px;
+}
+
+/*هذا عشان اللنكات الي ف الجدول الي ف اخر الصفحه*/
+#LINK{
+body-link:red;/*هذا لمن تضغط عليه يصير لونه احمر*/
+alink:red;
+vlink:violeet;/*هذا لون اللنك يكون بنفسجي*/
+}
+</style>
+</head>
+<body>
+           <div class="navigationbar">
+                  <ul>
+                          
+                           <a href="benefit.html" target="_blank"> BENEFIT</a>
+                           <a href="contact-us.html" target="_blank"> CONTACT</a>
+                           <a href="vid.html" target="_blank"> VIDEIOS</a>
+                     
+                           <a href="index.html"  target="_blank"> SIGIN up/in</a>
+                           <a href="FeedBack.html" target="_blank"> FEEDBACK</a>
+                  </ul>
+				  
+           <div class="searchll">
+                                 <form>
+                                 <input type="taxt" placeholder="search">
+                                 <button>search</button>
+                                 </form>
+           </div>
+      </div>
+	  
+<h1><font size="30px" face="Algerian" color="white" ><u><i><b>
+<center>SELF LEARNING</center></b></i></u></font></h1>
+
+
+                     <div class="cont1">
+                     <div class="boox">
+                     <div class="boximage">
+                     <img src="sslf1.png">
+                     </div>
+					
+ <div class="det">
+             <div class="thecontent">
+                        <h2> VERBAL</h2>
+                        <p>Word are your strongpoint
+						you prefer to use words both 
+						in speech and writing
+					   </p>
+             </div>
+ </div>
+</div>
+
+
+                      <div class="boox">
+                      <div class="boximage">
+                      <img src="learning2.jpg">
+                      </div>
+ 
+                       <div class="det">
+                                    <div class="thecontent">
+                                            <h2> VISUAL</h2>
+                                               <p>You prefer to use pictures,
+											   diagrams,images and spatial 
+											   understanding to help you to learn											   
+											   </p>
+                                   </div>
+                      </div>
+                       </div> 
+ 
+ 
+                      <div class="boox">
+                      <div class="boximage">
+                      <img src="learning3.jpg">
+                      </div>
+					  
+					  
+                     <div class="det">
+                     <div class="thecontent">
+                             <h2> MUSICAL</h2>
+                                   <p>You prefer using sound or 
+											   music or even rhythms to
+											   to help you to learn
+							       </p>
+                     </div>
+                     </div>
+                     </div>
+					 
+                  <div class="boox">
+                  <div class="boximage">
+                  <img src="learning4.jpg">
+ </div>
+ 
+ 
+                  <div class="det">
+                  <div class="thecontent">
+                         <h2> PHYSICAL</h2>
+                                  <p>You use your hand, body and 
+								  sense of touch to help you to learn
+								  and you might act things out
+								  </p>
+                  </div>
+                  </div>
+                  </div>
+				  
+				  
+                 <div class="boox">
+                 <div class="boximage">
+                 <img src="learning5.png">
+ </div>
+                          <div class="det">
+                          <div class="thecontent">
+                                   <h2> SOLITARY</h2>
+                                           <p>You like to learn alone. You use eslf study 
+										   and prefer your own company during 
+										   learning
+										   </p>
+                          </div>      
+                          </div>       
+                 </div>        
+				 
+                            <div class="boox">
+                            <div class="boximage">
+                            <img src="learning6.png">
+                            </div>    
+                                      <div class="det">
+                                      <div class="thecontent">
+                                               <h2> SOCIAL</h2>
+                                                           <p>You like to learn new things
+														   as a part of a group. Explaining your
+														   understanding to a group helps you to learn
+															</p>
+                                      </div>    
+                                      </div>      
+                            </div>         
+							
+                          <div class="boox">
+                          <div class="boximage">
+                          <img src="learning7.jpg">
+                          </div>     
+						  
+                                   <div class="det">
+                                   <div class="thecontent">
+                                          <h2> LOGICAL</h2>
+                                                  <p>Learning is easier for you 
+												  if you use logic, reasoning,systems and sequences
+												  </p>
+                                  </div>    
+                                  </div>    
+                      </div>
+					  
+					  
+                      <div class="boox">
+                      <div class="boximage">
+                      <img src="learning8.jpg">
+                      </div>   
+					  
+                                 <div class="det">
+                                 <div class="thecontent">
+                                        <h2> COMBINATION</h2>
+                                                 <p>Your learning style is a compination 
+												 of two or more of these styles
+												 </p>
+                                 </div>   
+                                 </div>    
+                      </div>     
+					  
+					  
+</div> 
+<br><br><br><br>
+<!--هذا عشان تقدر تكتب ف الصوره فوق  ف سطح الصوره يعني-->
+<figure>
+<!-- هنا تحط النص الي تباه يكون فوق ف سطح الصوره-->
+<figcaption><h1><font color="red" face="arial">We can help you:</font></h1></figcaption>
+<figcaption>
+<ul>
+<li>Determine the proper way for you</li><br>
+<li>Identefy whice way will help you</li><br>
+<li>Give you a new technique in learning</li><br>
+<li>Teache you how each way will affact</li><br>
+<li>Come up with a new method which is equal to your level</li>
+</ul>
+</figcaption>
+<br><br>
+<figcaption>
+<h1><font color="red" face="arial">Quick Links</font></h1><br>
+<table border="1" cellpadding="15" class="tab">
+<tr>
+<td><font size="20">Method Of Self Study 1</font></td>
+<td><font size="20"><a href="page1.html" target="_blank" id="LINK">Method 1</font></a></td>
+</tr>
+<tr>
+<td><font size="20">Method Of Self Study 2</font></td>
+<td><font size="20"><a href="page2.html" target="_blank" id="LINK">Method 2</font></a></td>
+</tr>
+<tr>
+<td><font size="20">Check If You Are Good In Self Learning</font></td>
+<td><font size="20"><a href="script.html" target="_blank" id="LINK">CHECK</font></a></td>
+</tr>
+</table>
+<br><br><br>
+<h1><font color="red" face="arial">Created By:</font></h1>
+<li>Marwan Al-Hinai</li>
+<img src="third_l.a._web_banner_plain.png" alt="Your text" class="mgg" >
+</figure>
+</figcaption>
+</body>
+</html>
